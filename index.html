@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNH Deceloper</title>
+    <!-- normalize link  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container browser">
+        <aside id="aside">
+            <div class="logo">
+                <img src="img/logo.svg" alt="logo">
+                <p>
+                    BNH <span>develepoer</span>
+                </p>
+            </div>
+            <div class="link">
+                <div class="icon-link">
+                    <a href="#">
+                        dashboard
+                    </a>
+                </div>
+                <div class="icon-link active" title="customers">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M384 0H64C28.65 0 0 28.65 0 64v384c0 35.35 28.65 64 64 64h320c35.35 0 64-28.65 64-64V64C448 28.65 419.3 0 384 0zM288 447.1C288 456.8 280.8 464 272 464H175.1C167.2 464 160 456.8 160 448S167.2 432 175.1 432h96C280.8 432 288 439.2 288 447.1z" />
+                    </svg>
+                    <a href="#" >
+                        customers
+                    </a>
+                </div>
+                <div class="icon-link" title="orders">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M272 304h-96C78.8 304 0 382.8 0 480c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32C448 382.8 369.2 304 272 304zM48.99 464C56.89 400.9 110.8 352 176 352h96c65.16 0 119.1 48.95 127 112H48.99zM224 256c70.69 0 128-57.31 128-128c0-70.69-57.31-128-128-128S96 57.31 96 128C96 198.7 153.3 256 224 256zM224 48c44.11 0 80 35.89 80 80c0 44.11-35.89 80-80 80S144 172.1 144 128C144 83.89 179.9 48 224 48z" />
+                    </svg>
+                    <a href="#" >
+                        orders
+                    </a>
+                </div>
+                <div class="icon-link" title="analytics">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path
+                            d="M336 64h-53.88C268.9 26.8 233.7 0 192 0S115.1 26.8 101.9 64H48C21.5 64 0 85.48 0 112v352C0 490.5 21.5 512 48 512h288c26.5 0 48-21.48 48-48v-352C384 85.48 362.5 64 336 64zM96 392c-13.25 0-24-10.75-24-24S82.75 344 96 344s24 10.75 24 24S109.3 392 96 392zM96 296c-13.25 0-24-10.75-24-24S82.75 248 96 248S120 258.8 120 272S109.3 296 96 296zM192 64c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S160 113.7 160 96C160 78.33 174.3 64 192 64zM304 384h-128C167.2 384 160 376.8 160 368C160 359.2 167.2 352 176 352h128c8.801 0 16 7.199 16 16C320 376.8 312.8 384 304 384zM304 288h-128C167.2 288 160 280.8 160 272C160 263.2 167.2 256 176 256h128C312.8 256 320 263.2 320 272C320 280.8 312.8 288 304 288z" />
+                    </svg>
+                    <a href="#" >
+                        analytics
+                    </a>
+                </div>
+                <div class="icon-link" title="messages">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z" />
+                    </svg>
+                    <a href="#" >
+                        messages
+                    </a>
+                </div>
+                <div class="icon-link" title="products">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path
+                            d="M336 64h-53.88C268.9 26.8 233.7 0 192 0S115.1 26.8 101.9 64H48C21.5 64 0 85.48 0 112v352C0 490.5 21.5 512 48 512h288c26.5 0 48-21.48 48-48v-352C384 85.48 362.5 64 336 64zM192 64c17.67 0 32 14.33 32 32s-14.33 32-32 32S160 113.7 160 96S174.3 64 192 64zM282.9 262.8l-88 112c-4.047 5.156-10.02 8.438-16.53 9.062C177.6 383.1 176.8 384 176 384c-5.703 0-11.25-2.031-15.62-5.781l-56-48c-10.06-8.625-11.22-23.78-2.594-33.84c8.609-10.06 23.77-11.22 33.84-2.594l36.98 31.69l72.52-92.28c8.188-10.44 23.3-12.22 33.7-4.062C289.3 237.3 291.1 252.4 282.9 262.8z" />
+                    </svg>
+                    <span>
+                        <a href="#" >
+                            products
+                        </a>
+                    </span>
+                </div>
+                <div class="icon-link" title="reports">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z" />
+                    </svg>
+                    <a href="#" >
+                        reports
+                    </a>
+                </div>
+                <div class="icon-link" title="setting">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z" />
+                    </svg>
+                    <a href="#" >
+                        setting
+                    </a>
+                </div>
+                <div class="icon-link" title="add product">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z" />
+                    </svg>
+                    <a href="#" >
+                        add product
+                    </a>
+                </div>
+            </div>
+            <div class="logout" title="log out">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M160 416H96c-17.67 0-32-14.33-32-32V128c0-17.67 14.33-32 32-32h64c17.67 0 32-14.33 32-32S177.7 32 160 32H96C42.98 32 0 74.98 0 128v256c0 53.02 42.98 96 96 96h64c17.67 0 32-14.33 32-32S177.7 416 160 416zM502.6 233.4l-128-128c-12.51-12.51-32.76-12.49-45.25 0c-12.5 12.5-12.5 32.75 0 45.25L402.8 224H192C174.3 224 160 238.3 160 256s14.31 32 32 32h210.8l-73.38 73.38c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0l128-128C515.1 266.1 515.1 245.9 502.6 233.4z" />
+                </svg>
+                <a href="">
+                    logout
+                </a>
+            </div>
+        </aside>
+        <div class="content">
+            <nav>
+                <span class="slide-bar" id="bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            <div>
+            <h1>
+                dashboard
+            </h1>
+            </div>
+            <div class="bio">
+                <div class="theme">
+                    <svg class="active-icon" id="light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M505.2 324.8l-47.73-68.78l47.75-68.81c7.359-10.62 8.797-24.12 3.844-36.06c-4.969-11.94-15.52-20.44-28.22-22.72l-82.39-14.88l-14.89-82.41c-2.281-12.72-10.76-23.25-22.69-28.22c-11.97-4.936-25.42-3.498-36.12 3.844L256 54.49L187.2 6.709C176.5-.6016 163.1-2.039 151.1 2.896c-11.92 4.971-20.4 15.5-22.7 28.19l-14.89 82.44L31.15 128.4C18.42 130.7 7.854 139.2 2.9 151.2C-2.051 163.1-.5996 176.6 6.775 187.2l47.73 68.78l-47.75 68.81c-7.359 10.62-8.795 24.12-3.844 36.06c4.969 11.94 15.52 20.44 28.22 22.72l82.39 14.88l14.89 82.41c2.297 12.72 10.78 23.25 22.7 28.22c11.95 4.906 25.44 3.531 36.09-3.844L256 457.5l68.83 47.78C331.3 509.7 338.8 512 346.3 512c4.906 0 9.859-.9687 14.56-2.906c11.92-4.969 20.4-15.5 22.7-28.19l14.89-82.44l82.37-14.88c12.73-2.281 23.3-10.78 28.25-22.75C514.1 348.9 512.6 335.4 505.2 324.8zM456.8 339.2l-99.61 18l-18 99.63L256 399.1L172.8 456.8l-18-99.63l-99.61-18L112.9 255.1L55.23 172.8l99.61-18l18-99.63L256 112.9l83.15-57.75l18.02 99.66l99.61 18L399.1 255.1L456.8 339.2zM256 143.1c-61.85 0-111.1 50.14-111.1 111.1c0 61.85 50.15 111.1 111.1 111.1s111.1-50.14 111.1-111.1C367.1 194.1 317.8 143.1 256 143.1zM256 319.1c-35.28 0-63.99-28.71-63.99-63.99S220.7 192 256 192s63.99 28.71 63.99 63.1S291.3 319.1 256 319.1z" />
+                    </svg>
+                    <svg id="dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M421.6 379.9c-.6641 0-1.35 .0625-2.049 .1953c-11.24 2.143-22.37 3.17-33.32 3.17c-94.81 0-174.1-77.14-174.1-175.5c0-63.19 33.79-121.3 88.73-152.6c8.467-4.812 6.339-17.66-3.279-19.44c-11.2-2.078-29.53-3.746-40.9-3.746C132.3 31.1 32 132.2 32 256c0 123.6 100.1 224 223.8 224c69.04 0 132.1-31.45 173.8-82.93C435.3 389.1 429.1 379.9 421.6 379.9zM255.8 432C158.9 432 80 353 80 256c0-76.32 48.77-141.4 116.7-165.8C175.2 125 163.2 165.6 163.2 207.8c0 99.44 65.13 183.9 154.9 212.8C298.5 428.1 277.4 432 255.8 432z" />
+                    </svg>
+                </div>
+                <div class="about-bio">
+                    <div class="content">
+                        hey ,
+                        <span>
+                            BNH<span>Developer</span>
+                        </span>
+                    </div>
+                    <img src="img/young-pretty-modern-muslim-woman-hijab-working-laptop-office-room-education-online_285396-9441.webp" alt="profile pic">
+                </div>
+            </div>
+            </nav>
+            <div class="menu">
+                <section>
+                    <form action="nofile.php" method="post">
+                        <input type="date" id="date">
+                    </form>
+                    <div class="box-content">
+                        <div class="box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M24 32C37.25 32 48 42.75 48 56V408C48 421.3 58.75 432 72 432H488C501.3 432 512 442.7 512 456C512 469.3 501.3 480 488 480H72C32.24 480 0 447.8 0 408V56C0 42.75 10.75 32 24 32zM128 136C128 122.7 138.7 112 152 112H360C373.3 112 384 122.7 384 136C384 149.3 373.3 160 360 160H152C138.7 160 128 149.3 128 136zM296 208C309.3 208 320 218.7 320 232C320 245.3 309.3 256 296 256H152C138.7 256 128 245.3 128 232C128 218.7 138.7 208 152 208H296zM424 304C437.3 304 448 314.7 448 328C448 341.3 437.3 352 424 352H152C138.7 352 128 341.3 128 328C128 314.7 138.7 304 152 304H424z" />
+                            </svg>
+                            <div class="price">
+                                <div class="text">
+                                    <h3>
+                                        total sales
+                                    </h3>
+                                    <span>
+                                        $25,024
+                                    </span>
+                                </div>
+                                <div class="percentage">
+                        
+                                </div>
+                            </div>
+                            <p>
+                                lost 24 hours
+                            </p>
+                        </div>
+                        <div class="box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M160 80C160 53.49 181.5 32 208 32H240C266.5 32 288 53.49 288 80V432C288 458.5 266.5 480 240 480H208C181.5 480 160 458.5 160 432V80zM0 272C0 245.5 21.49 224 48 224H80C106.5 224 128 245.5 128 272V432C128 458.5 106.5 480 80 480H48C21.49 480 0 458.5 0 432V272zM400 96C426.5 96 448 117.5 448 144V432C448 458.5 426.5 480 400 480H368C341.5 480 320 458.5 320 432V144C320 117.5 341.5 96 368 96H400z" />
+                            </svg>
+                            <div class="price">
+                                <div class="text">
+                                    <h3>
+                                        total expenses
+                                    </h3>
+                                    <span>
+                                        $14,160
+                                    </span>
+                                </div>
+                                <div class="percentage">
+                        
+                                </div>
+                            </div>
+                            <p>
+                                lost 24 hours
+                            </p>
+                        </div>
+                        <div class="box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M384 160C366.3 160 352 145.7 352 128C352 110.3 366.3 96 384 96H544C561.7 96 576 110.3 576 128V288C576 305.7 561.7 320 544 320C526.3 320 512 305.7 512 288V205.3L342.6 374.6C330.1 387.1 309.9 387.1 297.4 374.6L191.1 269.3L54.63 406.6C42.13 419.1 21.87 419.1 9.372 406.6C-3.124 394.1-3.124 373.9 9.372 361.4L169.4 201.4C181.9 188.9 202.1 188.9 214.6 201.4L320 306.7L466.7 159.1L384 160z" />
+                            </svg>
+                            <div class="price">
+                                <div class="text">
+                                    <h3>
+                                        total income
+                                    </h3>
+                                    <span>
+                                        $10,864
+                                    </span>
+                                </div>
+                                <div class="percentage">
+                        
+                                </div>
+                            </div>
+                            <p>
+                                lost 24 hours
+                            </p>
+                        </div>
+                    </div>
+                    <h2>
+                        recent orders
+                    </h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    product name
+                                </th>
+                                <th>
+                                    product number
+                                </th>
+                                <th>
+                                    payment
+                                </th>
+                                <th>
+                                    status
+                                </th>
+                                <th>
+                                </th>
+                            </td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    foldoble mini drone
+                                </td>
+                                <td>
+                                    12345
+                                </td>
+                                <td>
+                                    due
+                                </td>
+                                <td>
+                                    <span class="warning">
+                                        pending
+                                    </span>
+                                </td>
+                                <td>
+                                    details
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    lerevenda kevine drone
+                                </td>
+                                <td>
+                                    86543
+                                </td>
+                                <td>
+                                    rufendes
+                                </td>
+                                <td>
+                                    <span class="danger">
+                                        declined
+                                    </span>
+                                </td>
+                                <td>
+                                    details
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    roko fill pro drone
+                                </td>
+                                <td>
+                                    87493
+                                </td>
+                                <td>
+                                    due
+                                </td>
+                                <td>
+                                    <span class="warning">
+                                        pending
+                                    </span>
+                                </td>
+                                <td>
+                                    details
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    mini pasta drone
+                                </td>
+                                <td>
+                                    87032
+                                </td>
+                                <td>
+                                    due
+                                </td>
+                                <td>
+                                    <span>
+                                        deliverd
+                                    </span>
+                                </td>
+                                <td>
+                                    details
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    miyami jokal drone
+                                </td>
+                                <td>
+                                    36547
+                                </td>
+                                <td>
+                                    somthing
+                                </td>
+                                <td>
+                                    <span>
+                                        deliverd
+                                    </span>
+                                </td>
+                                <td>
+                                    details
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    foldoble mini drone
+                                </td>
+                                <td>
+                                    12345
+                                </td>
+                                <td>
+                                    due
+                                </td>
+                                <td>
+                                    <span class="warning">
+                                        pending
+                                    </span>
+                                </td>
+                                <td>
+                                    details
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button id="table-show">
+                        show all
+                    </button>
+                </section>
+                <article>
+                    <h2>
+                        recdent updates
+                    </h2>
+                    <div class="notification">
+                        <div class="box">
+                            <img src="img/vertical-shot-young-man-wearing-eyeglasses-checkered-shirt_181624-51432.webp" alt="">
+                            <div>
+                                <p>
+                                <span>
+                                    john due
+                                </span>
+                                received his order of 
+                                night lion tech GPS drone
+                            </p>
+                            <p>
+                                2 minutes ago
+                            </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/excellent-smiling-beautiful-woman-showing-okay-ok-zero-sign-approve-smth-good-praising-complimenting-beige-background_1258-88115.webp" alt="">
+                            <div>
+                                <p>
+                                    <span>
+                                        salma kina
+                                    </span>
+                                    received his order of
+                                    night lion tech GPS drone
+                                </p>
+                                <p>
+                                    5 minutes ago
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="img/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing_158538-4916.webp" alt="">
+                            <div>
+                                <p>
+                                    <span>
+                                        rayan pika
+                                    </span>
+                                    received his order of
+                                    night lion tech GPS drone
+                                </p>
+                                <p>
+                                    9 minutes ago
+                                </p>
+                            </div>
+                        </div>                        
+                    </div>
+                    <h2>
+                        sales analytics
+                    </h2>
+                    <div class="box-content">
+                        <div class="box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z" />
+                            </svg>
+                            <div>
+                                <h4>
+                                    online orders
+                                </h4>
+                                <p>
+                                    lost 24 hours
+                                </p>
+                            </div>
+                            <span class="safe">
+                                +39%
+                            </span>
+                            <span>
+                                2345
+                            </span>
+                        </div>
+                        <div class="box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M112 112C112 50.14 162.1 0 224 0C285.9 0 336 50.14 336 112V160H400C426.5 160 448 181.5 448 208V416C448 469 405 512 352 512H96C42.98 512 0 469 0 416V208C0 181.5 21.49 160 48 160H112V112zM160 160H288V112C288 76.65 259.3 48 224 48C188.7 48 160 76.65 160 112V160zM136 256C149.3 256 160 245.3 160 232C160 218.7 149.3 208 136 208C122.7 208 112 218.7 112 232C112 245.3 122.7 256 136 256zM312 208C298.7 208 288 218.7 288 232C288 245.3 298.7 256 312 256C325.3 256 336 245.3 336 232C336 218.7 325.3 208 312 208z" />
+                            </svg>
+                            <div>
+                                <h4>
+                                    offline orders
+                                </h4>
+                                <p>
+                                    lost 24 hours
+                                </p>
+                            </div>
+                            <span class="danger">
+                                +17%
+                            </span>
+                            <span>
+                                6789
+                            </span>
+                        </div>
+                        <div class="box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z" />
+                            </svg>
+                            <div>
+                                <h4>
+                                    new customer
+                                </h4>
+                                <p>
+                                    lost 24 hours
+                                </p>
+                            </div>
+                            <span class="safe">
+                                +25%
+                            </span>
+                            <span>
+                                849
+                            </span>
+                        </div>
+                        <div class="box-add">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z" />
+                            </svg>
+                            <p>
+                                add product
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
