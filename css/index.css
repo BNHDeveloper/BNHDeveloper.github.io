@@ -92,6 +92,7 @@ a{
 /* start aside part */
 aside{
     width: 20%;
+    min-width:250px;
     box-shadow: var(--shadow);
     min-height: 100vh;
     max-height: 100%;
