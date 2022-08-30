@@ -118,6 +118,7 @@ aside .logo p span{
     color:var(--logo-color);
 }
 aside .link>*{
+    max-width:200px;
     display: flex;
     align-items: center;
     margin-top: 10px;
