@@ -92,7 +92,6 @@ a{
 /* start aside part */
 aside{
     width: 20%;
-    min-width:250px;
     box-shadow: var(--shadow);
     min-height: 100vh;
     max-height: 100%;
@@ -131,6 +130,7 @@ aside .link a{
 }
 .active,
 aside .link .icon-link:not(:first-child):hover{
+    width:80%;
     background-color: rgba(73, 71, 71, 0.26);
     position: relative;
     transition-duration: 0.3s;
